@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int stepenuvane(int num,int stepen)
+{
+     int r=1;
+    for(int i=0;i<stepen;i++)
+    {
+      r*=num;  
+    }
+    return r;
+}
+int main()
+{
+ cout<<stepenuvane(3,2);
+}
